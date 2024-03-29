@@ -8,7 +8,7 @@ paypal.Buttons({
   createSubscription: function(data, actions) {
     return actions.subscription.create({
       /* Creates the subscription */
-      plan_id: 'P-22021808HH807521LMXY6CTQ'
+      plan_id: 'P-847551348E920703GMYDPAUY'
     });
   },
   onApprove: function (data, actions) {
@@ -19,4 +19,4 @@ paypal.Buttons({
     p.innerText = "Transaction completed, Thank you for buying our service"
     main.append(p)
   },
-}).render('#paypal-button-container-P-22021808HH807521LMXY6CTQ');
+}).render('#paypal-button-container-P-847551348E920703GMYDPAUY');
